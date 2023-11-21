@@ -1,0 +1,28 @@
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: -.03rem;
+    font-weight: 800;
+    margin-top: 1.5em;
+}
+
+.textInput {
+    padding: .5em;
+    margin: 1em 0;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.textInput:focus {
+    border: 3px solid #555;
+}

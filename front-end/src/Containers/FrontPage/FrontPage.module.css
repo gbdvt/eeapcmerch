@@ -1,0 +1,45 @@
+.frontImageText {
+    color:white;
+}
+
+.imageTextContainer {
+    background-color: gray;
+    opacity: 1;
+    border-radius: 1em;
+    padding: .1em;
+}
+
+.textContainer {
+    padding: 3em;
+    background-color: rgb(255, 246, 234);
+    border-radius: 1em;
+    font-size: 3em;
+    padding: .5em;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.title {
+    font-family: Lobster;
+}
+
+.galleryContainer {
+    width: 60%;
+    margin: auto;
+    font-size: 1em;
+}
+
+@media (max-width:950px) {
+    .imageTextContainer {
+        padding: 0.1em;
+        border-radius: .1em;
+    }
+    .galleryContainer {
+        width: 100%;
+    }
+    .textContainer {
+        font-size: 1em;
+        padding: .5em;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.button {
+    margin-top: 2em;
+    background-color: transparent;
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-size: 2rem;
+    letter-spacing: -.03rem;
+    font-weight: 800;
+    margin-top: 1.5em;
+    padding: .5em;
+    border: 5px solid #555;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+@media (min-width:600px) { 
+    .button:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 8px #888888;
+    }
+}

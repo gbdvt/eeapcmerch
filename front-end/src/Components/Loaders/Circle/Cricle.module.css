@@ -1,0 +1,9 @@
+.loaderContainer {
+    height: 10em;
+    width: 100%;
+}
+
+.innerContainer {
+    width: 150px;
+    margin: 0 auto;
+}

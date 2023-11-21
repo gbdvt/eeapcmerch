@@ -1,0 +1,17 @@
+.innerContainer {
+    background-color: lightgray;
+    height: 15em;
+    cursor: pointer;
+    border-radius: 1em;
+}
+
+.icon {
+    width: 100% !important;
+    height: 50%;
+    margin-top: 2em;
+}
+
+.innerContainer h2 {
+    width: 100%;
+    text-align: center;
+}

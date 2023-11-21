@@ -1,0 +1,24 @@
+.textContainier {
+    background-color: rgb(255, 246, 234);
+    border-radius: 1em;
+    padding: .5em;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 2em;
+}
+
+.textContainier img {
+    width: 100%;
+    border-radius: 1em;
+}
+
+@media (max-width:950px) {
+    .textContainier {
+        font-size: 1em;
+        padding: .5em;
+    }
+    .textContainier img {
+        border-radius: .1em;
+    }
+    
+}

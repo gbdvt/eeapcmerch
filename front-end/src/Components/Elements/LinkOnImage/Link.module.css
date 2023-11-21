@@ -1,0 +1,24 @@
+.textContainer {
+    background-color: rgb(255, 246, 234);
+    border-radius: 1em;
+    padding: 1em;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+.outerLinkContainer a {
+    text-decoration: none;
+}
+
+.outerContainer {
+    margin: 2em 0;
+}
+
+
+
+@media (min-width:600px) { 
+    .textContainer:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 8px #313131;
+    }
+}

@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    margin: 2em auto;
+    min-height: 10%;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.title {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.image {
+    margin: 2em auto;
+    display: block;
+    width: 100%;
+}
+
+.body {
+    margin: 4em 0;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 100%;
+        margin: 2em auto;
+        background-color: whitesmoke;
+        min-height: 10%;
+        border-radius: 0;
+        padding: 0;
+    }
+    .image {
+        margin: 2em auto;
+        display: block;
+        max-width: 85%;
+    }
+    .description {
+        padding-left: 2em;
+    }
+}

@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 1em;
+}
+
+.ExtendedGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 1em;
+}
+
+
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:600px) {
+    .textContainer {
+        font-size: .6em;
+    }
+}

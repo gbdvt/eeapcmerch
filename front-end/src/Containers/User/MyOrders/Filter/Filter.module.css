@@ -1,0 +1,16 @@
+.Container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.innerContainer {
+    width: 70%;
+    margin: 0 auto;
+    transition: all ease-in-out .5s;
+}
+
+@media (max-width:600px) {
+    .innerContainer {
+        width: 100%;
+    }
+}

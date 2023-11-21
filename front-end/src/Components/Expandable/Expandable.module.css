@@ -1,0 +1,15 @@
+.Container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.innerContainer {
+    width: 70%;
+    margin: 3em auto;
+}
+
+@media (max-width:600px) {
+    .innerContainer {
+        width: 100%;
+    }
+}

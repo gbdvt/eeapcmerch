@@ -1,0 +1,20 @@
+.LoginForm {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.bottomLinkContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+@media (max-width:900px) {
+    .LoginForm {
+        width: 100%;
+    }
+}

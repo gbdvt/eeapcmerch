@@ -1,0 +1,46 @@
+.imageContainer {
+    height: 30vh;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+  }
+
+.centered a {
+    text-decoration: none;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3em;
+}
+
+@media (max-width:1500px) {
+    .centered {
+        font-size: 2em;
+      }
+}
+
+
+@media (max-width:1000px) {
+    .centered {
+        font-size: 1.5em;
+      }
+}
+
+
+@media (max-width:480px) {
+    .imageContainer img {
+        border-radius: 1em;
+    }
+}
+
